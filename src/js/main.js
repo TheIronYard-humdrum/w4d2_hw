@@ -50,14 +50,3 @@ var profileGenerator = function(users) {
     person.append(html)
   })
 }
-
-
-
-
-
-
-
-
-
-
-
