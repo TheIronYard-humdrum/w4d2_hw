@@ -15,12 +15,13 @@
           phone: user.phone,
           ss_num: user.id.value
         }
-      }); ```
+      });
 
 * Used conditional to insure no undefinned returns.
+
 * ```javascript
-        if (user.ss_num != undefined){
-          html += `<p class="social">${user.ss_num}</p>`
-        } else {
-          html += `</div>`
-        } ```
+    if (user.ss_num != undefined){
+      html += `<p class="social">${user.ss_num}</p>`
+    } else {
+      html += `</div>`
+     }
