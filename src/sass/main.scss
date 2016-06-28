@@ -13,14 +13,13 @@ body {
   max-width: 84%;
   margin: 0 auto;
   overflow: auto;
-  border: solid 1px red;
 }
 
 .profile {
   float: left;
   display: inline;
-  border: solid 1px green;
   width: 25%;
+  height: 500px;
   text-align: center;
   overflow: hidden;
   padding: 10px;
@@ -36,20 +35,34 @@ body {
   border-bottom: solid 1px rgb(36, 160, 89);
   font-size: 1rem;
   display: inline-block;
+  margin: 10px 0 0 0;
 }
 
 .email {
   color: rgb(192, 192, 192);
   font-weight: 300;
+  font-size: 0.8rem;
 }
 
 .address,
 .phone {
   color: rgb(142, 142, 142);
+  font-size: 0.8rem;
 }
 
-.ss_num{
+.address {
+  line-height: 1.5rem;
+}
 
+.social{
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: transparent;
+  text-shadow: 0 0 10px rgb(142, 142, 142);
+  &:hover {
+    color: rgb(142, 142, 142);
+    text-shadow: none;
+  }
 }
 
 

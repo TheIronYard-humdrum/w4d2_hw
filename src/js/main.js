@@ -3,7 +3,7 @@ import $ from 'jquery'
 var person = $('.container')
 
 var data = $.ajax({
-  url: 'http://randomuser.me/api/?results=25',
+  url: 'http://randomuser.me/api/?results=12',
   dataType: 'json',
   success: function(data){
   return data;
