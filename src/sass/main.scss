@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 84%;
+  margin: 0 auto;
+  overflow: auto;
+  border: solid 1px red;
+}
+
+.profile {
+  float: left;
+  display: inline;
+  border: solid 1px green;
+  width: 25%;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+.user-name {
+  color: rgb(58, 53, 51);
+  letter-spacing: 0.02em;
+  border-bottom: solid 1px rgb(36, 160, 89);
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.email {
+  color: rgb(192, 192, 192);
+  font-weight: 300;
+}
+
+.address,
+.phone {
+  color: rgb(142, 142, 142);
+}
+
+.ss_num{
+
+}
+
+
+
