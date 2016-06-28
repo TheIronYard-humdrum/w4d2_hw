@@ -15,7 +15,7 @@
           phone: user.phone,
           ss_num: user.id.value
         }
-      });
+      }); ```
 
 * Used conditional to insure no undefinned returns.
 * ```javascript
@@ -23,4 +23,4 @@
           html += `<p class="social">${user.ss_num}</p>`
         } else {
           html += `</div>`
-        }
+        } ```
